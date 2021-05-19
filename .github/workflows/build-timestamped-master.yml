@@ -4,6 +4,8 @@ on:
     branches:
       - master
   workflow_dispatch:
+  schedule:
+    - cron:  '0 */12 * * *' # every day
 
 jobs:
   build:
