@@ -5,7 +5,7 @@ on:
       - master
   workflow_dispatch:
   schedule:
-    - cron:  '0 */12 * * *' # every day
+    - cron:  '0 * * * *' # every day
 
 jobs:
   build:
